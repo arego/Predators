@@ -1,0 +1,116 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: url(../imgs/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* header {
+    height: 55px;
+    width: 1016px;
+
+    right: 0;
+    bottom: 0;
+    left: 0;
+} */
+
+html, body, main {
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+header {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	display: block;
+	height: 100px;
+	width: 100%;
+	overflow: hidden;
+	background: url(../imgs/trees.png) repeat-x 0 0;
+}
+
+.twitter {
+	transform: rotate(20deg);
+}
+
+.facebook {
+	/*margin-top: 20px;*/
+	transform: rotate(-20deg);
+}
+
+.twitter, .facebook {
+	height: 50px;
+	width: 50px;
+}
+
+.ball_1 {
+	position: absolute;
+	top: -20px;
+	left: 336px;
+	display: block;
+	height: 115px;
+	width: 100%;
+	overflow: hidden;
+	background: url(../imgs/ball1.png) repeat-x 0 0;
+}
+
+.ball_1s {
+	position: absolute;
+	top: -35px;
+	left: 130px;
+	display: block;
+	height: 115px;
+	width: 100%;
+	overflow: hidden;
+	background: url(../imgs/ball1.png) repeat-x 0 0;
+}
+
+.ball_2 {
+	position: absolute;
+	top: -16px;
+	left: 80px;
+	display: block;
+	height: 115px;
+	width: 100%;
+	overflow: hidden;
+	background: url(../imgs/ball2.png) repeat-x 0 0;
+}
+
+.ball_2s {
+	position: absolute;
+	top: -10px;
+	left: 265px;
+	display: block;
+	height: 115px;
+	width: 100%;
+	overflow: hidden;
+	background: url(../imgs/ball2.png) repeat-x 0 0;
+}
+
+.ball_3 {
+	position: absolute;
+	top: -13px;
+	left: 188px;
+	display: block;
+	height: 115px;
+	width: 100%;
+	overflow: hidden;
+	background: url(../imgs/ball3.png) repeat-x 0 0;
+}
+
+.ball_4 {
+	position: absolute;
+	top: -5px;
+	left: 20px;
+	display: block;
+	height: 115px;
+	width: 100%;
+	overflow: hidden;
+	background: url(../imgs/ball4.png) repeat-x 0 0;
+}

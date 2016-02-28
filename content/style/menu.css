@@ -1,0 +1,281 @@
+﻿@keyframes xfade {
+0% {
+	opacity: 1;
+}
+10.5% {
+	opacity: 1;
+}
+12.5% {
+	opacity: 0;
+}
+98% {
+	opacity: 0;
+}
+100% {
+	opacity: 1;
+}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	height: 20px;
+	color: #3c4826;
+	text-decoration: none;
+}
+
+a::after {
+	content: attr(title);
+}
+
+a:hover {
+	color: #1a3277;
+}
+
+body {
+	font-family: verdana, arial, sans-serif;
+	font-size: 10pt;
+	margin: 10px 0 0 77px;
+}
+
+details:first-child {
+	margin-bottom: 5px;
+}
+
+div {
+	height: 258px;
+	width: 304px;
+}
+
+footer {
+	height: 105px;
+	width: 220px;
+	position: absolute;
+	top: 306px;
+	left: 700px;
+}
+
+html {
+	float: right;
+	overflow: hidden;
+}
+
+img {
+	height: 196px;
+	width: 289px;
+	position: absolute;
+	display: block;
+	margin-left: 7px;
+	-webkit-transition: all 5s;
+	-webkit-animation: canidae-Move 5s infinite;
+}
+
+	img:nth-child(1) {
+		-webkit-animation: xfade 16s 14s infinite;
+	}
+
+	img:nth-child(2) {
+		-webkit-animation: xfade 16s 12s infinite;
+	}
+
+	img:nth-child(3) {
+		-webkit-animation: xfade 16s 10s infinite;
+	}
+
+	img:nth-child(4) {
+		-webkit-animation: xfade 16s 8s infinite;
+	}
+
+	img:nth-child(5) {
+		-webkit-animation: xfade 16s 6s infinite;
+	}
+
+	img:nth-child(6) {
+		-webkit-animation: xfade 16s 4s infinite;
+	}
+
+	img:nth-child(7) {
+		-webkit-animation: xfade 16s 2s infinite;
+	}
+
+	img:nth-child(8) {
+		-webkit-animation: xfade 16s 1s infinite;
+	}
+
+main > menu {
+	margin: 12px 0 0 40px;
+}
+
+main > menu > menuitem::before, .second > menuitem::before {
+	content: '';
+	border: none;
+}
+
+menuitem {
+	height: 25px;
+	display: block;
+	margin-top: 5px;
+	margin-left: 57px;
+}
+
+nav {
+	margin: -19px 0 0 40px;
+}
+
+summary {
+	height: 40px;
+	cursor: pointer;
+	font-size: 0em;
+}
+
+	summary:focus {
+		outline: none;
+	}
+
+span {
+	height: 21px;
+	width: 198px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	background-color: #9cb65a;
+	margin-left: 20px;
+	box-shadow: -10px 10px 30px #d4cdcd;
+	-webkit-transform: rotate(360deg) scale(0.96) skew(-4deg) translate(-37px);
+}
+
+.box {
+	height: 200px;
+	width: 70%;
+	background: #fff;
+	margin: 40px auto;
+}
+
+.box h3 {
+	position: relative;
+	top: 80px;
+	text-align: center;
+}
+
+
+.button {
+	height: 30px;
+	width: 165px;
+	position: relative;
+	color: #fff;
+	font-family: tahoma, "arial black";
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 17px;
+	background-color: #777;
+	background-image: url(../imgs/favicon.png);
+	background-position: right 8% top 43%;
+	background-repeat: no-repeat;
+	background-size: 27px;
+	padding: 10px 0 0 50px;
+}
+
+
+.bloc {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 10px 15px;
+	width: 215px;
+	height: 40px;
+}
+
+.bloc:after {
+	content: " ";
+	position: absolute;
+	width: 70%;
+	height: 7px;
+	z-index: -10;
+}
+
+.curve:after {
+	top: 24px;
+	right: 10px;
+	transform: rotate(5deg);
+	box-shadow: 0 6px 15px 3px #333;
+}
+
+.dog {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 10px;
+	left: 0;
+	background-color: rgba(40, 94, 110, 1);
+	border: 3px solid rgba(177, 214, 225, 1);
+	border-radius: 6px;
+}
+
+.second {
+	padding-top: 10px;
+}
+
+.css-slideshow {
+	position: relative;
+	max-width: 495px;
+	height: 170px;
+	margin: 5em auto .5em auto;
+}
+
+	.css-slideshow figure {
+		margin: 0;
+		max-width: 495px;
+		height: 370px;
+		background: #000;
+		position: absolute;
+	}
+
+	.css-slideshow img {
+		box-shadow: 0 0 2px #666;
+	}
+
+.css-slideshow-attr {
+	max-width: 495px;
+	text-align: right;
+	font-size: .7em;
+	font-style: italic;
+	margin: 0 auto;
+}
+
+.css-slideshow figure {
+	opacity: 0;
+}
+
+img:nth-child(1) {
+	animation: xfade 16s 14s infinite;
+}
+
+img:nth-child(2) {
+	animation: xfade 16s 9s infinite;
+}
+
+img:nth-child(3) {
+	animation: xfade 16s 5s infinite;
+}
+
+img:nth-child(4) {
+	animation: xfade 16s 0s infinite;
+}
+.animals {
+	cursor: url(../cursors/hourse.gif) 4 12, auto;
+}
+.facebook {
+	cursor: url(../cursors/fb.gif) 4 12, auto;
+}
+.google {
+	cursor: url(../cursors/google.png) 4 12, auto;
+}
+.w3school {
+	cursor: url(../cursors/w3.png) 4 12, auto;
+}
+.websites {
+	cursor: url(../cursors/websites.gif) 4 12, auto;
+}

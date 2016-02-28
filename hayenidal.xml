@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="content/style/hayenidal.css"?>
+<root>
+	<content>
+	<caption>Phylogeny based on Werdelin and Souounias 1991 and Koepfli et al.</caption>
+	<main_level>
+		Protictitherium
+		<node-level>
+			Pliovoverrops
+			<ancestor>
+				Tongxinictis <q>may be a Percrocutid</q>
+			</ancestor>
+			<ancestor>
+				Tungurictis
+				<parent>
+					Ictitherium <q>6 sp</q>
+					<sibling>
+						Thalassictis
+						<child>
+							Hyaenotherium
+							<branch>Miohyaenotherium</branch>
+							<branch>Hyaenictitherium</branch>
+							<branch>Proteles</branch>
+							<branch>Lycyaena</branch>
+							<branch>
+								Hyaenictis <q>3sp</q>
+							</branch>
+							<branch>Chasmaporthetes</branch>
+						</child>
+						<child>
+							Palinhyasna
+							<branch>
+								Ikeloyasna
+								<leaf>Belbus</leaf>
+								<leaf>Hyaenid</leaf>
+							</branch>
+						</child>
+						<child>
+							Leecyaena
+							<branch>Parahyasna</branch>
+							<branch>Hyaena</branch>
+							<branch>Pliocrocuta</branch>
+							<branch>
+								Pachycrocuta
+								<leaf>Adcrocuta</leaf>
+								<leaf>Crocuta</leaf>
+							</branch>
+						</child>
+					</sibling>
+				</parent>
+			</ancestor>
+		</node-level>
+	</main_level>
+		</content>
+</root>

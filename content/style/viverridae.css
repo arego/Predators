@@ -1,0 +1,92 @@
+@namespace html5 url(http://www.w3.org/1999/xhtml);
+@namespace h url(http://www.w3.org/TR/SVG);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-button {
+	color: #808080;
+	background-color: #808080;
+	border: 1px solid #808080;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-button:hover {
+	background-color: #161616;
+}
+::-webkit-scrollbar-track {
+	background-color: #444545;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+	color: #808080;
+	border: 1px solid #808080;
+	border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: #313037;
+}
+
+
+html5|li {
+	color: red;
+}
+h|li {
+	display: list-item;
+	color: green;
+}
+html {
+	overflow: hidden;
+
+	cursor: url(../cursors/penguin.gif) 4 12, auto;
+}
+body {
+	height: 520px;
+	width: 570px;
+
+	border: 4px double #777;
+	border-radius: 10px;
+	overflow-y: scroll;
+
+	padding: 10px 0 10px 20px;
+	margin: 80px 0 0 50px;
+}
+main {
+	width: 500px;
+
+	background-color: #444;
+	border-radius: 10px;
+
+	padding: 25px;
+	margin: auto;
+}
+li {
+	margin: 8px 0 8px 30px;
+}
+q {
+	font-style: italic;
+	quotes: '('')';
+}
+summary {
+	display: block;
+	color: #002435;
+	outline: none;
+}
+summary:after {
+	content: attr(title);
+	float: left;
+	margin-right: 10px;
+}
+var {
+	font-style: normal;
+	color: #078856;
+}
+summary.first:after {
+	list-style: none;
+}
+.second {
+	list-style: none
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE HTML[
+<!ENTITY author "Areg Mirijanyan">
+	<!ENTITY familycanidae "A carnivorous mammal of the family Canidae.">
+	<!ENTITY mail "aregmirijayan8@gmail.com">
+]>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="next" href="procyonidae.xhtml" />
+	<style>
+		@import url(content/style/canidae.css);
+	</style>
+	<script src="scripts/jquery.js" />
+	<script src="scripts/canidae.js" />
+	<title>Canidae</title>
+</head>
+<body>
+	<main>
+		<table>
+			<caption title="Table 1.1">Table 1.1</caption>
+			<thead>
+				<tr>
+					<th title="Description Lists">Description List</th>
+					<th title="Contents">Contents</th>
+					<th id="Count" title="Count">Count</th>
+					<th id="First" title="First">1</th>
+					<th id="Second" title="Second">2</th>
+					<th id="Third" title="Third">3</th>
+					<th id="Extinct" class="size" title="Extinct">Extinct</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="animal">
+						<div>
+							<dl>
+								<dt id="Dog" class="dog" title="Dog">Dog</dt>
+								<dd title="&familycanidae;">&familycanidae;</dd>
+							</dl>
+						</div>
+					</td>
+					<td>
+						<input type="range" id="DogRange" class="range" name="DogRange" value="0" onchange="addValue(event);" oninput="logRange(this)" />
+					</td>
+					<td>
+						<counter>
+							<input type="button" class="left_button" value="&#8249;&#8249;" />
+							<input type="text" class="count" value="0" />
+							<input type="button" class="right_button" value="&#8250;&#8250;" />
+						</counter>
+					</td>
+					<td>
+						<input type="radio" id="IsDogChecked" class="first" name="IsDogChecked" title="First" checked="checked" />
+					</td>
+					<td>
+						<input type="radio" id="IsDogCheckedNo" class="second" name="IsDogChecked" title="Second" />
+					</td>
+					<td>
+						<input type="radio" id="IsDogCheckedNoo" class="third" name="IsDogChecked" title="Third" />
+					</td>
+					<td>
+						<input type="checkbox" id="IsDogExtinct" class="extinct_box" name="IsDogExtinct" title="Extinct" value="true" />
+						<input type="hidden" name="IsDogExtinct" value="false" />
+					</td>
+				</tr>
+				<tr>
+					<td class="animal">
+						<div>
+							<dl>
+								<dt id="Jackal" class="jackal" title="Jackal">Jackal</dt>
+								<dd title="&familycanidae;">&familycanidae;</dd>
+							</dl>
+						</div>
+					</td>
+					<td>
+						<input type="range" id="JackalRange" class="range" name="JackalRange" value="0" onchange="addValue(event);" oninput="logRange(this)" />
+					</td>
+					<td>
+						<counter>
+							<input type="button" class="left_button" value="&#8249;&#8249;" />
+							<input type="text" class="count" value="0" />
+							<input type="button" class="right_button" value="&#8250;&#8250;" />
+						</counter>
+					</td>
+					<td>
+						<input type="radio" id="IsJackalChecked" class="first" name="IsJackalChecked" title="First" checked="checked" />
+					</td>
+					<td>
+						<input type="radio" id="IsJackalCheckedNo" class="second" name="IsJackalChecked" title="Second" />
+					</td>
+					<td>
+						<input type="radio" id="IsJackalCheckedNoo" class="third" name="IsJackalChecked" title="Third" />
+					</td>
+					<td>
+						<input type="checkbox" id="IsJackalExtinct" class="extinct_box" name="IsJackalExtinct" title="Extinct" value="true" />
+						<input type="hidden" name="IsJackalExtinct" value="false" />
+					</td>
+				</tr>
+				<tr>
+					<td class="animal">
+						<div>
+							<dl>
+								<dt id="Wolf" class="wolf" title="Wolf">Wolf</dt>
+								<dd title="&familycanidae;">&familycanidae;</dd>
+							</dl>
+						</div>
+					</td>
+					<td>
+						<input type="range" id="WolfRange" class="range" name="WolfRange" value="0" onchange="addValue(event);" oninput="logRange(this)" />
+					</td>
+					<td>
+						<counter>
+							<input type="button" class="left_button" value="&#8249;&#8249;" />
+							<input type="text" class="count" value="0" />
+							<input type="button" class="right_button" value="&#8250;&#8250;" />
+						</counter>
+					</td>
+					<td>
+						<input type="radio" id="IsWolfChecked" class="first" name="IsWolfChecked" title="First" checked="checked" />
+					</td>
+					<td>
+						<input type="radio" id="IsWolfCheckedNo" class="second" name="IsWolfChecked" title="Second" />
+					</td>
+					<td>
+						<input type="radio" id="IsWolfCheckedNoo" class="third" name="IsWolfChecked" title="Third" />
+					</td>
+					<td>
+						<input type="checkbox" id="IsWolfExtinct" class="extinct_box" name="IsWolfExtinct" title="Extinct" value="false" />
+						<input type="hidden" name="IsWolfExtinct" value="false" />
+					</td>
+				</tr>
+				<tr>
+					<td class="animal">
+						<div>
+							<dl>
+								<dt id="Vixen" class="vixen" title="Vixen">Vixen</dt>
+								<dd title="&familycanidae;">&familycanidae;</dd>
+							</dl>
+						</div>
+					</td>
+					<td>
+						<input type="range" id="VixenRange" class="range" name="VixenRange" value="0" oninput="addValue(event);" onchange="logRange(this)" />
+					</td>
+					<td>
+						<counter>
+							<input type="button" class="left_button" value="&#8249;&#8249;" />
+							<input type="text" class="count" value="0" />
+							<input type="button" class="right_button" value="&#8250;&#8250;" />
+						</counter>
+					</td>
+					<td>
+						<input type="radio" id="IsVixenChecked" class="first" name="IsVixenChecked" title="First" checked="checked" />
+					</td>
+					<td>
+						<input type="radio" id="IsVixenCheckedNo" class="second" name="IsVixenChecked" title="Second" />
+					</td>
+					<td>
+						<input type="radio" id="IsVixenCheckedNoo" class="third" name="IsVixenChecked" title="Third" />
+					</td>
+					<td>
+						<input type="checkbox" id="IsVixenExtinct" class="extinct_box" name="IsVixenExtinct" title="Extinct" value="false" />
+						<input type="hidden" name="IsVixenExtinct" value="false" />
+					</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th title="Sum">SUM</th>
+					<td>
+						<meter id="Meter" min="0" max="500" value="500" />
+					</td>
+					<td colspan="4" >
+						<progress id="progress" value="48" min="0" max="96"></progress>
+					</td>
+					<td><output class="result">0</output></td>
+				</tr>
+			</tfoot>
+		</table>
+		<dialog>
+			<section>
+				<button id="XButton" class="close" title="Close">X</button>
+				<div class="container">
+					<button id="Next" class="next" title="Next">&gt;</button>
+					<button id="Prev" class="prev" title="Prev">&lt;</button>
+					<img id="Slide" />
+				</div>
+			</section>
+		</dialog>
+	</main>
+</body>
+</html>

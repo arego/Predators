@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Erinaceidae.xsl" ?>
+<parent>
+	<caption>Family Erinaceidae</caption>
+	<sibling title="Genus Silvacola"></sibling>
+	<sibling title="Subfamily Erinaceinae (Hedgehogs)">
+		Subfamily Erinaceinae (Hedgehogs)
+		<child>†Genus Amphechinus
+			<branch>†Amphechinus akespensis</branch>
+			<branch>†Amphechinus arverniensis</branch>
+			<branch>†Amphechinus baudelotae</branch>
+			<branch>†Amphechinus edwardsi</branch>
+			<branch>†Amphechinus ginsburgi</branch>
+			<branch>†Amphechinus golpeae</branch>
+			<branch>†Amphechinus horncloudi</branch>
+			<branch>†Amphechinus intermedius</branch>
+			<branch>†Amphechinus kreuzae</branch>
+			<branch>†Amphechinus major</branch>
+			<branch>†Amphechinus microdus</branch>
+			<branch>†Amphechinus minutissimus</branch>
+			<branch>†Amphechinus robinsoni</branch>
+			<branch>†Amphechinus taatsiingolensis</branch>
+		</child>
+		<child>Genus Atelerix
+			<branch>Four-toed hedgehog, Atelerix albiventris</branch>
+			<branch>North African hedgehog, Atelerix algirus</branch>
+			<branch>Southern African hedgehog, Atelerix frontalis</branch>
+			<branch>Somali hedgehog, Atelerix sclateri</branch>
+		</child>
+		<child>Genus Erinaceus
+			<branch>Amur hedgehog, Erinaceus amurensis</branch>
+			<branch>Southern white-breasted hedgehog, Erinaceus concolor</branch>
+			<branch>European hedgehog, Erinaceus europaeus</branch>
+			<branch>Northern white-breasted hedgehog, Erinaceus roumanicus</branch>
+		</child>
+		<child>Genus Hemiechinus
+			<branch>Long-eared hedgehog, Hemiechinus auritus</branch>
+			<branch>Indian long-eared hedgehog, Hemiechinus collaris</branch>
+		</child>
+		<child>Genus Mesechinus
+			<branch>Daurian hedgehog, Mesechinus dauuricus</branch>
+			<branch>Hugh's hedgehog, Mesechinus hughi</branch>
+		</child>
+		<child>Genus Paraechinus
+			<branch>Desert hedgehog, Paraechinus aethiopicus</branch>
+			<branch>Brandt's hedgehog, Paraechinus hypomelas</branch>
+			<branch>Indian hedgehog, Paraechinus micropus</branch>
+			<branch>Bare-bellied hedgehog, Paraechinus nudiventris</branch>
+		</child>
+	</sibling>
+	<sibling title="Subfamily Galericinae (Gymnures, or Moonrats)">
+		<child>†Genus Deinogalerix
+			<branch>†Deinogalerix brevirostris</branch>
+			<branch>†Deinogalerix freudenthali</branch>
+			<branch>†Deinogalerix intermedius</branch>
+			<branch>†Deinogalerix koenigswaldi</branch>
+			<branch>†Deinogalerix minor</branch>
+		</child>
+		<child>Genus Echinosorex
+			<branch>Moonrat, Echinosorex gymnura</branch>
+		</child>
+		<child>Genus Hylomys
+			<branch>Long-eared gymnure, Hylomys megalotis</branch>
+			<branch>Dwarf gymnure, Hylomys parvus</branch>
+			<branch>Short-tailed gymnure or Lesser Moonrat, Hylomys suillus</branch>
+		</child>
+		<child>Genus Neohylomys
+			<branch>Hainan gymnure, Neonylomys hainanensis</branch>
+		</child>
+		<child>Genus Neotetracus
+			<branch>Shrew gymnure, Neotetracus sinensis</branch>
+		</child>
+		<child>Genus Podogymnura
+			<branch>Dinagat gymnure, Podogymnura aureospinula</branch>
+			<branch>Mindanao gymnure, Podogymnura truei</branch>
+		</child>
+	</sibling>
+</parent>
